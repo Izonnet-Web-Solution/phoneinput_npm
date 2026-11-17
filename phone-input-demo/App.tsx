@@ -280,14 +280,15 @@ function PhoneInputDemoScreen() {
                 style={[styles.presetBtn, styles.presetBtnError]}
                 onPress={() => handleQuickPreset('IN', '98765432')}
               >
-                <Text style={styles.presetBtnText}>🇮🇳 India (8 Digits - Test Error)</Text>
+                <Text style={styles.presetBtnText}>🇮🇳 India {"\n"}
+                  (8 Digits - Test Error)</Text>
               </TouchableOpacity>
 
               <TouchableOpacity
                 style={[styles.presetBtn, styles.presetBtnValid]}
                 onPress={() => handleQuickPreset('IN', '9876543210')}
               >
-                <Text style={styles.presetBtnText}>🇮🇳 India (10 Digits - Valid)</Text>
+                <Text style={styles.presetBtnText}>🇮🇳 India {"\n"} (10 Digits - Valid)</Text>
               </TouchableOpacity>
             </View>
 
@@ -767,7 +768,10 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     borderRadius: 8,
     alignItems: 'center',
+    justifyContent: 'center',
+    textAlignVertical: 'center'
   },
+
   inspectBtn: {
     backgroundColor: '#059669',
   },
@@ -778,5 +782,6 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 12,
     fontWeight: '700',
+    textAlign: 'center'
   },
 });

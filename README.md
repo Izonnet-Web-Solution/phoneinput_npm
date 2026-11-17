@@ -4,9 +4,34 @@
 [![npm downloads](https://img.shields.io/npm/dm/@izonnet-web-solution/react-native-phone-input-kit.svg?style=flat-square)](https://www.npmjs.com/package/@izonnet-web-solution/react-native-phone-input-kit)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg?style=flat-square)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/jenilg/react-native-phone-input-kit/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Izonnet-Web-Solution/phoneinput_npm/pulls)
 
 A sleek, enterprise-ready, and lightweight React Native phone number input library. Built with **TypeScript**, powered by **`libphonenumber-js`** for precise international validation, and optimized for both **iOS** and **Android**.
+
+---
+
+<div align="center">
+  <h3>📸 Preview & Screenshots</h3>
+  <br/>
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <b>📱 Phone Input & Validation Demo</b>
+      </td>
+      <td align="center" width="50%">
+        <b>🌍 Searchable Country Picker Modal</b>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="./screenshots/phone-input-validation.png" width="300" alt="Phone Number Input & Validation" />
+      </td>
+      <td align="center">
+        <img src="./screenshots/country-picker-modal.png" width="300" alt="Searchable Country Picker Modal" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 

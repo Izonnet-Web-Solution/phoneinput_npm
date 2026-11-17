@@ -13,6 +13,7 @@
   "files": [
     "lib",
     "src",
+    "screenshots",
     "README.md",
     "LICENSE"
   ],
@@ -50,12 +51,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jenilizonnet/phoneinput_npm.git"
+    "url": "git+https://github.com/Izonnet-Web-Solution/phoneinput_npm.git"
   },
   "bugs": {
-    "url": "https://github.com/jenilizonnet/phoneinput_npm/issues"
+    "url": "https://github.com/Izonnet-Web-Solution/phoneinput_npm/issues"
   },
-  "homepage": "https://github.com/jenilizonnet/phoneinput_npm#readme",
+  "homepage": "https://github.com/Izonnet-Web-Solution/phoneinput_npm#readme",
   "peerDependencies": {
     "react": ">=18.0.0",
     "react-native": ">=0.68.0"
@@ -75,4 +76,3 @@
     "typescript": "^5.4.5"
   }
 }
-
