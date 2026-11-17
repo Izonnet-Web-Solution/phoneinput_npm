@@ -2,8 +2,10 @@
 
 [![npm version](https://img.shields.io/npm/v/@izonnet-web-solution/react-native-phone-input-kit.svg?style=flat-square)](https://www.npmjs.com/package/@izonnet-web-solution/react-native-phone-input-kit)
 [![npm downloads](https://img.shields.io/npm/dm/@izonnet-web-solution/react-native-phone-input-kit.svg?style=flat-square)](https://www.npmjs.com/package/@izonnet-web-solution/react-native-phone-input-kit)
+[![GitHub stars](https://img.shields.io/github/stars/Izonnet-Web-Solution/phoneinput_npm.svg?style=flat-square)](https://github.com/Izonnet-Web-Solution/phoneinput_npm/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/Izonnet-Web-Solution/phoneinput_npm.svg?style=flat-square)](https://github.com/Izonnet-Web-Solution/phoneinput_npm/issues)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg?style=flat-square)](https://www.typescriptlang.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/Izonnet-Web-Solution/phoneinput_npm/blob/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Izonnet-Web-Solution/phoneinput_npm/pulls)
 
 A sleek, enterprise-ready, and lightweight React Native phone number input library. Built with **TypeScript**, powered by **`libphonenumber-js`** for precise international validation, and optimized for both **iOS** and **Android**.
@@ -24,10 +26,14 @@ A sleek, enterprise-ready, and lightweight React Native phone number input libra
     </tr>
     <tr>
       <td align="center">
-        <img src="./screenshots/phone-input-validation.png" width="300" alt="Phone Number Input & Validation" />
+        <a href="https://raw.githubusercontent.com/Izonnet-Web-Solution/phoneinput_npm/main/screenshots/phone-input-validation.png" target="_blank">
+          <img src="https://raw.githubusercontent.com/Izonnet-Web-Solution/phoneinput_npm/main/screenshots/phone-input-validation.png" width="300" alt="Phone Number Input & Validation" />
+        </a>
       </td>
       <td align="center">
-        <img src="./screenshots/country-picker-modal.png" width="300" alt="Searchable Country Picker Modal" />
+        <a href="https://raw.githubusercontent.com/Izonnet-Web-Solution/phoneinput_npm/main/screenshots/country-picker-modal.png" target="_blank">
+          <img src="https://raw.githubusercontent.com/Izonnet-Web-Solution/phoneinput_npm/main/screenshots/country-picker-modal.png" width="300" alt="Searchable Country Picker Modal" />
+        </a>
       </td>
     </tr>
   </table>
@@ -349,6 +355,39 @@ console.log(lengths.maxLength); // 10
 
 ---
 
+## 📱 Running the Demo App
+
+A full React Native demo application showcasing all configurations, themes, and validations is available in the [`phone-input-demo`](https://github.com/Izonnet-Web-Solution/phoneinput_npm/tree/main/phone-input-demo) directory.
+
+```bash
+# Clone the repository
+git clone https://github.com/Izonnet-Web-Solution/phoneinput_npm.git
+cd phoneinput_npm/phone-input-demo
+
+# Install dependencies
+npm install
+
+# Run on Android
+npm run android
+
+# Run on iOS
+npm run ios
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+- 🐛 **Report a Bug / Request a Feature**: [GitHub Issues](https://github.com/Izonnet-Web-Solution/phoneinput_npm/issues)
+- 💡 **Submit a Pull Request**: [GitHub Pull Requests](https://github.com/Izonnet-Web-Solution/phoneinput_npm/pulls)
+- ⭐ **Star this repository**: [GitHub Repository](https://github.com/Izonnet-Web-Solution/phoneinput_npm)
+
+---
+
 ## 📄 License
 
-MIT © [Jenil](https://github.com/jenilg)
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Izonnet-Web-Solution/phoneinput_npm/blob/main/LICENSE) file for details.
+
+Developed & Maintained with ❤️ by [Izonnet Web Solution](https://github.com/Izonnet-Web-Solution) & [Jenil](https://github.com/jenilg).
