@@ -1,7 +1,7 @@
-#react-native-phone-input-kit 📱✨
+# @izonnet-web-solution/react-native-phone-input-kit 📱✨
 
-[![npm version](https://img.shields.io/npm/v/react-native-phone-input-kit.svg?style=flat-square)](https://www.npmjs.com/package/react-native-phone-input-kit)
-[![npm downloads](https://img.shields.io/npm/dm/react-native-phone-input-kit.svg?style=flat-square)](https://www.npmjs.com/package/react-native-phone-input-kit)
+[![npm version](https://img.shields.io/npm/v/@izonnet-web-solution/react-native-phone-input-kit.svg?style=flat-square)](https://www.npmjs.com/package/@izonnet-web-solution/react-native-phone-input-kit)
+[![npm downloads](https://img.shields.io/npm/dm/@izonnet-web-solution/react-native-phone-input-kit.svg?style=flat-square)](https://www.npmjs.com/package/@izonnet-web-solution/react-native-phone-input-kit)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg?style=flat-square)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/jenilg/react-native-phone-input-kit/pulls)
@@ -29,15 +29,15 @@ A sleek, enterprise-ready, and lightweight React Native phone number input libra
 ## 📦 Installation
 
 ```bash
-npm installreact-native-phone-input-kit libphonenumber-js
+npm install @izonnet-web-solution/react-native-phone-input-kit libphonenumber-js
 ```
 
 Or with Yarn / PNPM:
 
 ```bash
-yarn addreact-native-phone-input-kit libphonenumber-js
+yarn add @izonnet-web-solution/react-native-phone-input-kit libphonenumber-js
 # or
-pnpm addreact-native-phone-input-kit libphonenumber-js
+pnpm add @izonnet-web-solution/react-native-phone-input-kit libphonenumber-js
 ```
 
 > **Note**: No `pod install` or native code modification is needed!
@@ -51,7 +51,7 @@ pnpm addreact-native-phone-input-kit libphonenumber-js
 ```tsx
 import React, { useState } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { PhoneInput } from 'react-native-phone-input-kit';
+import { PhoneInput } from '@izonnet-web-solution/react-native-phone-input-kit';
 
 export default function App() {
   const [phoneNumber, setPhoneNumber] = useState('');
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
 ```tsx
 import React, { useState, useRef } from 'react';
 import { View, Button, Text } from 'react-native';
-import { PhoneInput, PhoneInputRef, PhoneValidationResult } from 'react-native-phone-input-kit';
+import { PhoneInput, PhoneInputRef, PhoneValidationResult } from '@izonnet-web-solution/react-native-phone-input-kit';
 
 export default function AdvancedScreen() {
   const [phone, setPhone] = useState('');
@@ -193,7 +193,7 @@ export default function AdvancedScreen() {
 You can access imperative methods using a `ref`:
 
 ```tsx
-import { PhoneInput, PhoneInputRef } from 'react-native-phone-input-kit';
+import { PhoneInput, PhoneInputRef } from '@izonnet-web-solution/react-native-phone-input-kit';
 
 const phoneRef = useRef<PhoneInputRef>(null);
 
@@ -232,7 +232,7 @@ import {
   getCountryMaxLength,
   getCallingCode,
   getCountryCallingCodeNumber,
-} from 'react-native-phone-input-kit';
+} from '@izonnet-web-solution/react-native-phone-input-kit';
 
 // 1. Comprehensive Validation:
 const result = validatePhoneNumber('9876543210', 'IN');

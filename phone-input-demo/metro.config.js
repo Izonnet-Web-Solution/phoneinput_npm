@@ -23,6 +23,7 @@ const config = {
   resolver: {
     blockList: [rootNodeModulesRegex],
     extraNodeModules: {
+      '@izonnet-web-solution/react-native-phone-input-kit': path.resolve(root, 'src'),
       '@jenu-dev/react-native-phone-input-kit': path.resolve(root, 'src'),
       'react-native-phone-input-kit': path.resolve(root, 'src'),
       react: path.resolve(__dirname, 'node_modules', 'react'),
@@ -32,6 +33,7 @@ const config = {
     },
     resolveRequest: (context, moduleName, platform) => {
       if (
+        moduleName === '@izonnet-web-solution/react-native-phone-input-kit' ||
         moduleName === '@jenu-dev/react-native-phone-input-kit' ||
         moduleName === 'react-native-phone-input-kit'
       ) {

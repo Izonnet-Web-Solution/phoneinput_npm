@@ -15,6 +15,7 @@
     "libphonenumber-js": "^1.11.17",
     "react": "19.3.0",
     "react-native": "0.88.1",
+    "@izonnet-web-solution/react-native-phone-input-kit": "file:..",
     "react-native-phone-input-kit": "file:..",
     "react-native-safe-area-context": "^5.5.2"
   },

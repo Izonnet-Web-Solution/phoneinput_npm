@@ -1,7 +1,10 @@
 {
-  "name": "react-native-phone-input-kit",
+  "name": "@izonnet-web-solution/react-native-phone-input-kit",
   "version": "1.0.0",
   "description": "A modern, highly customizable, and validated React Native phone number input component with international country selector and search.",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "lib/index.js",
   "module": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -40,7 +43,8 @@
     "typescript",
     "ios",
     "android",
-    "react-native-phone-input-kit"
+    "react-native-phone-input-kit",
+    "@izonnet-web-solution/react-native-phone-input-kit"
   ],
   "author": "Jenil",
   "license": "MIT",

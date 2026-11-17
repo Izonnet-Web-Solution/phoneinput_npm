@@ -14,6 +14,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "paths": {
+      "@izonnet-web-solution/react-native-phone-input-kit": ["../src"],
       "@jenu-dev/react-native-phone-input-kit": ["../src"],
       "react-native-phone-input-kit": ["../src"]
     },

@@ -20,7 +20,7 @@ import PhoneInputDefault, {
   PhoneInputRef,
   validatePhoneNumber,
   getCountryByCode,
-} from 'react-native-phone-input-kit';
+} from '@izonnet-web-solution/react-native-phone-input-kit';
 
 const PhoneInput = NamedPhoneInput || PhoneInputDefault;
 
