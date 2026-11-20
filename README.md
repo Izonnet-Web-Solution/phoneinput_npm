@@ -17,22 +17,22 @@ A sleek, enterprise-ready, and lightweight React Native phone number input libra
   <br/>
   <table>
     <tr>
-      <td align="center" width="50%">
+      <td align="center" width="75%">
         <b>📱 Phone Input & Validation Demo</b>
       </td>
-      <td align="center" width="50%">
+      <td align="center" width="25%">
         <b>🌍 Searchable Country Picker Modal</b>
       </td>
     </tr>
     <tr>
-      <td align="center">
+      <td align="center" valign="middle">
         <a href="https://raw.githubusercontent.com/Izonnet-Web-Solution/phoneinput_npm/main/screenshots/phone-input-validation.png" target="_blank">
-          <img src="https://raw.githubusercontent.com/Izonnet-Web-Solution/phoneinput_npm/main/screenshots/phone-input-validation.png" width="300" alt="Phone Number Input & Validation" />
+          <img src="https://raw.githubusercontent.com/Izonnet-Web-Solution/phoneinput_npm/main/screenshots/phone-input-validation.png" height="420" alt="Phone Number Input & Validation" />
         </a>
       </td>
-      <td align="center">
+      <td align="center" valign="middle">
         <a href="https://raw.githubusercontent.com/Izonnet-Web-Solution/phoneinput_npm/main/screenshots/country-picker-modal.png" target="_blank">
-          <img src="https://raw.githubusercontent.com/Izonnet-Web-Solution/phoneinput_npm/main/screenshots/country-picker-modal.png" width="300" alt="Searchable Country Picker Modal" />
+          <img src="https://raw.githubusercontent.com/Izonnet-Web-Solution/phoneinput_npm/main/screenshots/country-picker-modal.png" height="420" alt="Searchable Country Picker Modal" />
         </a>
       </td>
     </tr>
